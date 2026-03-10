@@ -27,9 +27,11 @@ export default function Home() {
                 GitHub
               </a>
             </nav>
-            <Button asChild variant="default" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200">
-              <a href="#get-started">Get Started</a>
-            </Button>
+            <a href="#get-started">
+              <Button variant="default" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 w-full">
+                Get Started
+              </Button>
+            </a>
           </div>
         </div>
       </header>
@@ -49,18 +51,18 @@ export default function Home() {
             your business runs itself.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button asChild size="lg" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 text-base px-8 py-6 h-auto">
-              <a href="https://github.com/paperclipai/paperclip" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <a href="https://github.com/paperclipai/paperclip" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 text-base px-8 py-6 h-auto flex items-center gap-2">
                 <GitHubLogoIcon className="w-5 h-5" />
                 Star on GitHub
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-2 border-zinc-300 dark:border-zinc-700 text-base px-8 py-6 h-auto hover:bg-zinc-100 dark:hover:bg-zinc-900">
-              <a href="#get-started" className="flex items-center gap-2">
+              </Button>
+            </a>
+            <a href="#get-started">
+              <Button size="lg" variant="outline" className="border-2 border-zinc-300 dark:border-zinc-700 text-base px-8 py-6 h-auto hover:bg-zinc-100 dark:hover:bg-zinc-900 flex items-center gap-2">
                 <PlayIcon className="w-5 h-5" />
                 Quick Start
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
 
           {/* Terminal Preview */}
@@ -751,17 +753,17 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200">
-              <a href="https://github.com/paperclipai/paperclip" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <a href="https://github.com/paperclipai/paperclip" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 flex items-center gap-2">
                 <StarIcon className="w-5 h-5" />
                 Star on GitHub
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-2">
-              <a href="https://github.com/paperclipai/paperclip/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+              </Button>
+            </a>
+            <a href="https://github.com/paperclipai/paperclip/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="border-2">
                 Read the Docs
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
         </div>
       </section>
